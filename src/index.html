@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERA Poll</title>
     
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/style">
 </head>
 <body>
 
     <div id="app">
         <input type="text" class="pollname" placeholder="The name of the poll..."><button class="poll-name-button">Create !</button>
         <div class="poll" hidden>
-
+            <h1 class="name"></h1>
+            <input type="text" class="new-options" placeholder="New options..."><button class="new-options-button">Create !</button>
         </div>
     </div>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/gun@0.2020.1232/gun.min.js"></script>
+    <script src="/js"></script>
 </body>
 </html>

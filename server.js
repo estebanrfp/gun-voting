@@ -11,4 +11,12 @@ app.get('/', async (req, res) => {
     res.send(html);
 })
 
+app.get('/style', async(req, res) => {
+    res.sendFile(__dirname + '/src/style/style.css')
+})
+
+app.get('/js', async(req, res) => {
+    res.sendFile(__dirname + '/src/index.js')
+})
+
 app.listen(PORT, () => { console.log("Running at http://localhost:" + PORT) })
