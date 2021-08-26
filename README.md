@@ -1,6 +1,10 @@
-Voting system to add the most demanded features
+# gun-voting
 
-First steps
+Vanilla JS and Gun.
+
+Add the most demanded features.
+
+## First steps
 
 1 - Creating Voting Gun app
 
