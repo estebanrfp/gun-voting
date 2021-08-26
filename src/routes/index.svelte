@@ -19,7 +19,7 @@
     };
 
     function add() {
-      list.innerHTML += '<li><input type="checkbox">' + value + '</li><br/>'
+      list.innerHTML += '<li><input class="choices" type="checkbox">' + value + '</li><br/>'
     }
 </script>
 
@@ -27,7 +27,7 @@
     <div class="inputs">
         <input type="text" class="name" placeholder="Name of the poll"><br/>
         <div class="add-choices">
-            <input bind:value={value} class="choices" type="text" placeholder="Your choices here" on:keypress={onKeyPress}><button on:click={add} class="submit-button">Submit</button>
+            <input bind:value={value} class="input-choices" type="text" placeholder="Your choices here" on:keypress={onKeyPress}><button on:click={add} class="submit-button">Submit</button>
         </div>
         <div id="list">
         </div>
@@ -48,7 +48,7 @@
         margin-bottom: 2em;
     }
 
-    .choices {
+    .input-choices {
         border: 0;
         padding: 0.5rem;
 
