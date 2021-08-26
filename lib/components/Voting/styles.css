@@ -19,12 +19,12 @@ body.done {
   display: block;
 }
 
-.done .winning {
+.done .winningContainer {
   position: relative;
   z-index: 5;
 }
 
-.winning {
+.winningContainer {
   font-size: 20px;
   text-align: center;
   padding: .5rem;
