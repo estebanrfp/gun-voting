@@ -13,8 +13,8 @@ body.done {
 }
 
 .votingContainer {
-  /* max-width: 400px; */
-  /* margin: 0px auto; */
+  /* max-width: 400px;
+  margin: 0px auto; */
   padding: 1rem;
   display: block;
 }
@@ -35,7 +35,7 @@ body.done {
 .singleProposal {
   position: relative;
   /* height: 100px; */
-  background: #00b6ff;
+  background: #00000040;
   margin-bottom: 1rem;
   padding: 1rem;
 }
