@@ -100,12 +100,12 @@ textarea#votingData {
   outline: none;
   resize: none;
   background: #0000001f;
-  color: #fff;
+  color: #a7e4ff;
 }
 
 button#generateUrl {
-  background: #0ff;
-  color:#4caf50;
+  background: #a7e4ff;
+  color:#00b6ff;
   position: fixed;
   z-index: 10000;
   height: 42px;
@@ -113,6 +113,11 @@ button#generateUrl {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a7e4ff;
+  text-align: center;
 }
 
 .timer {
@@ -126,6 +131,6 @@ button#generateUrl {
   width: 200px;
   background: #00000000;
   padding: 1rem;
-  color: cyan;
+  color: #a7e4ff;
   font-size: 1rem;
 }
