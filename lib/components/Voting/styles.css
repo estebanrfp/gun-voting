@@ -68,7 +68,7 @@ button {
 
 .singleProposal.vote1:after {
   content: '';
-  background: #C03A2C;
+  background: #8bc34a;
   left: 0;
   top: 0;
   height: 100%;
@@ -79,7 +79,7 @@ button {
 
 .singleProposal.vote2:after {
   content: '';
-  background: #C03A2C;
+  background: #8bc34a;
   left: 0;
   top: 0;
   height: 100%;
@@ -90,7 +90,7 @@ button {
 
 .singleProposal.vote3:after {
   content: '';
-  background: #C03A2C;
+  background: #8bc34a;
   left: 0;
   top: 0;
   height: 100%;
@@ -101,7 +101,7 @@ button {
 
 .singleProposal.vote4:after {
   content: '';
-  background: #C03A2C;
+  background: #8bc34a;
   left: 0;
   top: 0;
   height: 100%;
@@ -129,7 +129,7 @@ body.done:before {
   content: '';
   z-index: 5;
   background: rgba(0, 0, 0, 0.57);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
