@@ -149,7 +149,7 @@ textarea#votingData {
 
 textarea#votingData {
   width: 100%;
-  height: calc(100vh - 140px);
+  height: calc(100vh - 80px);
   border: none;
   overflow: auto;
   outline: none;
@@ -159,7 +159,11 @@ textarea#votingData {
 }
 
 button#generateUrl {
-  background: cyan;
+  background: #0ff;
+  color:#4caf50;
+  position: fixed;
+  z-index: 10000;
+  height: 42px;
 }
 
 ::-webkit-scrollbar {
