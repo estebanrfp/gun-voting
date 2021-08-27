@@ -13,10 +13,11 @@ body.done {
 }
 
 .votingContainer {
-  /* max-width: 400px;
-  margin: 0px auto; */
   padding: 1rem;
-  display: block;
+  /* display: block; */
+  margin-top: 40px;
+  position: absolute;
+  width: calc(100% - 2rem);
 }
 
 .done .winningContainer {
@@ -28,8 +29,10 @@ body.done {
   font-size: 20px;
   text-align: center;
   padding: .5rem;
-  margin: 1rem 0;
   background: #00b6ff;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .singleProposal {
@@ -131,4 +134,8 @@ body.done:before {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
