@@ -136,6 +136,32 @@ body.done:before {
   height: 100%;
 }
 
+textarea#votingData {
+  width: 100%;
+  height: calc(100vh - 140px);
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  background: #0000001f;
+  color: #fff;
+}
+
+textarea#votingData {
+  width: 100%;
+  height: calc(100vh - 140px);
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  background: #0000001f;
+  color: #fff;
+}
+
+button#generateUrl {
+  background: cyan;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
