@@ -1,0 +1,30 @@
+.countdown {
+  /* outline:1px dotted red;
+  font-family: 'HelveticaNeue','Helvetica','Arial', sans-serif; */
+  font-size: 18px;
+  background: #0000004f;
+  position: fixed;
+  bottom:0;
+  right: 0;
+}
+
+
+.countdown span {
+  /* outline: 1px dotted blue; */
+  display: inline-block;
+  padding: 5px;
+  /* padding: 1rem; */
+}
+
+.countdown span::after {
+  content: ':';
+  padding-left: 5px;
+}
+
+.countdown span:last-child::after {
+  content: '';
+}
+
+/* .countdown .days {
+  display: none;
+} */
