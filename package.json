@@ -22,6 +22,7 @@
     "vite-plugin-pwa": "0.7.3"
   },
   "dependencies": {
+    "flatpickr": "4.6.9",
     "gun": "0.2020.1234"
   },
   "engines": {
