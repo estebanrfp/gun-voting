@@ -21,7 +21,7 @@ body.done {
 }
 
 .done .winningContainer {
-  position: relative;
+  /* position: relative; */
   z-index: 5;
 }
 
@@ -66,7 +66,7 @@ button {
   letter-spacing: 6px;
 }
 
-.singleProposal.vote1:after {
+.singleProposal.vote:after {
   content: '';
   background: #8bc34a;
   left: 0;
@@ -77,51 +77,7 @@ button {
   z-index: -1;
 }
 
-.singleProposal.vote2:after {
-  content: '';
-  background: #8bc34a;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 40%;
-  position: absolute;
-  z-index: -1;
-}
-
-.singleProposal.vote3:after {
-  content: '';
-  background: #8bc34a;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 60%;
-  position: absolute;
-  z-index: -1;
-}
-
-.singleProposal.vote4:after {
-  content: '';
-  background: #8bc34a;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 80%;
-  position: absolute;
-  z-index: -1;
-}
-
-.singleProposal.vote5:after {
-  content: '';
-  background: #8bc34a;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-.singleProposal.vote5 {
+.singleProposal.vote {
   z-index: 5;
 }
 
