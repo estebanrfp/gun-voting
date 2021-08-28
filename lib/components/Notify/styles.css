@@ -1,0 +1,21 @@
+#alert {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box {
+    /* filter: blur(8px); */
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 5% 10% 5% 10%;
+    -webkit-box-shadow: 6px 13px 22px 3px rgba(0,0,0,0.52); 
+    box-shadow: 6px 13px 22px 3px rgba(0,0,0,0.52);
+}
