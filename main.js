@@ -3,6 +3,7 @@ import { registerSW } from 'virtual:pwa-register'
 import './lib/index.js'
 
 const updateSW = registerSW({
+  immediate: true,
   onNeedRefresh () {
     // show a prompt to user
     console.log('New content available, click on reload button to update.')
