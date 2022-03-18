@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "flatpickr": "4.6.11",
-    "gun": "0.2020.1235"
+    "gun": "0.2020.1236"
   },
   "engines": {
     "node": ">=0.12"
